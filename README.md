@@ -83,6 +83,7 @@ Measures how play effectiveness changes as defensive expectation increases and a
 
 ## Repository Structure
 
+```
 oil/
 ├── data/
 ├── notebooks/
@@ -95,6 +96,7 @@ oil/
 │       └── oil_demo.png
 ├── results/
 └── README.md
+```
 
 ---
 
