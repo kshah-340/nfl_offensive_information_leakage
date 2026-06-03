@@ -1,2 +1,2 @@
-# nfl_offensive_information_leakage
+# Offensive Information Leakage (OIL)
 A framework for quantifying the tradeoff between play quality and play predictability in NFL offensive decision-making.
