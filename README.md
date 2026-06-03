@@ -85,8 +85,6 @@ Measures how play effectiveness changes as defensive expectation increases and a
 
 ## Repository Structure
 
-Note: I'm actively developing this project. To keep the repository focused on the research framework and high-level methodology, notebooks, experimental analyses, and model outputs are not currently included. I'll add these as the project matures.
-
 ```
 oil/
 ├── data/
@@ -100,7 +98,10 @@ oil/
 │       └── oil_demo.png
 ├── results/
 └── README.md
+
 ```
+
+Note: This project is an ongoing research effort. The repository currently focuses on the underlying framework and concepts; supporting notebooks, model artifacts, and detailed results will be published as development progresses.
 
 ---
 
