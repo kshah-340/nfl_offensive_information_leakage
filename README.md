@@ -34,3 +34,18 @@ For any game situation (down, distance, yardline, time, scoreline, teams, etc.):
 4. Adjust theoretical value by the cost of information leakage.
 
 The result is an OIL-adjusted play ranking that accounts for both effectiveness and predictability.
+
+## Example
+
+In the above demo scenario:
+
+- 1st-and-15
+- Own 33-yard line
+- Tie game
+- Nickel defense
+
+A play-action pass produces the highest theoretical EPA.
+
+However, because shotgun pass concepts dominate offensive tendencies in this situation, defensive expectation changes the ranking.
+
+OIL identifies screen passes and RPOs as potentially superior decisions once predictability is incorporated.
