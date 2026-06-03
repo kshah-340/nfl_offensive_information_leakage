@@ -35,6 +35,8 @@ For any game situation (down, distance, yardline, time, scoreline, teams, etc.):
 
 The result is an OIL-adjusted play ranking that accounts for both effectiveness and predictability.
 
+---
+
 ## Example
 
 In the above demo scenario:
@@ -49,3 +51,78 @@ A play-action pass produces the highest theoretical EPA.
 However, because shotgun pass concepts dominate offensive tendencies in this situation, defensive expectation changes the ranking.
 
 OIL identifies screen passes and RPOs as potentially superior decisions once predictability is incorporated.
+
+---
+
+## Methodology
+
+The project consists of three modeling components:
+
+### 1. Play Expectation Model
+
+Predicts how likely each play type is to occur given:
+
+- Down
+- Distance
+- Field position
+- Score differential
+- Time remaining
+- Personnel
+- Formation
+- Defensive look
+
+### 2. Play Value Model
+
+Estimates the expected value of each play independent of defensive expectation.
+
+### 3. OIL Adjustment Layer
+
+Measures how play effectiveness changes as defensive expectation increases and adjusts play recommendations accordingly.
+
+---
+
+## Repository Structure
+
+oil/
+│
+├── data/
+├── notebooks/
+├── src/
+│   ├── expectation_model/
+│   ├── value_model/
+│   ├── oil_model/
+│   └── app/
+│
+├── images/
+│   └── oil_demo.png
+│
+├── results/
+└── README.md
+
+---
+
+## Skills Demonstrated
+
+- Machine Learning
+- Predictive Modeling
+- NFL Analytics
+- Feature Engineering
+- Classification Models
+- Expected Value Modeling
+- Interactive Dashboard Design
+- Python
+- scikit-learn
+- Data Visualization
+
+---
+
+## Future Development
+
+This project is actively being built out. Planned enhancements include:
+
+- Expanded play taxonomy
+- Formation-specific modeling
+- Personnel grouping effects
+- Real-time recommendation engine
+- Team-specific tendency adjustments
+- Interactive web deployment
