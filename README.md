@@ -2,7 +2,7 @@
 
 A framework for quantifying the tradeoff between play quality and play predictability in NFL offensive decision-making.
 
-### OIL Demo
+#### OIL Demo
 
 ![OIL Demo](images/oil_demo.png)
 
